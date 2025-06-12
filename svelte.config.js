@@ -1,13 +1,6 @@
-import adapter from '@sveltejs/adapter-auto';
+// Minimal svelte.config.js for a non-SvelteKit project
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-	kit: {
-		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
-		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
-		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter()
-	}
+export default {
+  // No SvelteKit specific configurations
+  // Add Svelte specific options here if needed in the future (e.g., preprocessors)
 };
-
-export default config;
